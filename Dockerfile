@@ -1,3 +1,3 @@
-FROM nik3924/httpd-centos
+FROM nik3924/centos-httpd
 RUN rm -rf /var/www/html/index.html
-MOVE ./index.html /var/www/html/
+ADD ./index.html /var/www/html/
